@@ -14,15 +14,4 @@ function Message({ isRead, text }) {
     );
 }
 
-function App() {
-    return (
-        <div>
-            <Message isRead={false} text="Новое сообщение от Анны" />
-            <Message isRead={true} text="Вчерашнее сообщение от Петра" />
-        </div>
-    )
-}
-
-
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<App />);
+export default Message;

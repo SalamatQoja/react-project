@@ -24,16 +24,4 @@ function ProductCard({ price, discount, title }) {
     );
 }
 
-function App() {
-    return (
-        <div>
-            <ProductCard title="Samsung" price={300000}  discount={50000}/>
-            <ProductCard title="Artel" price={500000}  discount={0}/>
-            <ProductCard title="Shivaki" price={600000} discount={200000}/>
-        </div>
-    );
-}
-
-
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<App />);
+export default ProductCard;

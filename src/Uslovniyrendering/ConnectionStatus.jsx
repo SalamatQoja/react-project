@@ -9,16 +9,5 @@ function ConnectionStatus({ isOnline,name }) {
     );
 }
 
-function App() {
-    return (
-        <div>
-            <ConnectionStatus isOnline={true} name="Salamat" />
-        </div>
-    );
-}
-
-
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<App />);
-
+export default ConnectionStatus;
 

@@ -19,14 +19,4 @@ function Profile({ name, avatar, hasPhoto }) {
     );
 }
 
-function App() {
-    return (
-        <div>
-            <Profile name="Salamat" avatar={realAvatar} hasPhoto={false} />
-            <Profile name="Aigerim" avatar={realAvatar} hasPhoto={true} />
-        </div>
-    );
-}
-
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<App />);
+export default Profile;

@@ -13,17 +13,6 @@ function AuthStatus({isLoggedin, name}) {
     return <h1>Pojalyusta voydite v sistemu </h1>
 }
 
-function App () {
-    return (
-        <div>
-            <AuthStatus isLoggedin={true} name="Salamat"/>
-        </div>
-    );
-
-}
-
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<App />);
-
+export default AuthStatus;
 
 
