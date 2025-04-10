@@ -4,6 +4,7 @@ import ShowHide from './Uslovniyrendering/ShowHide';
 import Privetstviye from './Props/Privetstiye';
 import Calculyator from './Props/Calkulyator';
 import TodoList from './Props/TodoList';
+import Increment from './Uslovniyrendering/Events';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <Profile name="Salamat" avatar={realAvatar} hasPhoto={false} />
       <Profile name="Aigerim" avatar={realAvatar} hasPhoto={true} />
       <Message isRead={false} text="Новое сообщение от Анны" />
+      <Increment/>
     </div>
   );
 }
