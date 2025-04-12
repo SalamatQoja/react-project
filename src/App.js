@@ -27,6 +27,7 @@ function App() {
       <Profile name="Aigerim" avatar={realAvatar} hasPhoto={true} />
       <Message isRead={false} text="Новое сообщение от Анны" />
       <Increment/>
+      <InputText/>
     </div>
   );
 }
